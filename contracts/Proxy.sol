@@ -1,4 +1,4 @@
-pragma solidity ^0.8.4;
+pragma solidity 0.8.4;
 
 library StorageSlot {
     function getAddressAt(bytes32 slot) internal view returns (address a) {
